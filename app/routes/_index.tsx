@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <h2>Trivial change to trigger Production deployment</h2>
+      <h2 className="text-red-500">Trivial change to trigger Production deployment</h2>
       <ul>
         <li>
           <a
